@@ -87,3 +87,7 @@ scripts/kibitzerCheck/*
 scripts/aclCheck/*
 *.pyc
 /concat-stats-for
+
+# Project specific
+meetingroom-finder-frontend.sublime-project
+meetingroom-finder-frontend.sublime-workspace
