@@ -1,0 +1,19 @@
+<article class="listing">
+  <a {{action 'toggleImageSize'}} class="image {{if isWide "wide"}}">
+    <img src="{{meetingroom.image}}" alt="">
+    <small>View Larger</small>
+  </a>
+  <h3>{{meetingroom.name}}</h3>
+  <div class="detail owner">
+    <span>positon:</span> ({{meetingroom.position-x}}, {{meetingroom.position-y}})
+  </div>
+  <div class="detail type">
+    <span>Property 2:</span> Property 2
+  </div>
+  <div class="detail location">
+    <span>Property 1:</span> Property 3
+  </div>
+  <div class="detail bedrooms">
+    <span>Property 2:</span> Property 4
+  </div>
+</article>
